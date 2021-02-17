@@ -20,3 +20,10 @@
 objdump a.o
 
 > **objdump**: displays information about one or more object files.  The options control what particular information to display.  This information is mostly useful to programmers who are working on the compilation tools, as opposed to programmers who just want their program to compile and work.
+
+## 预编译
+
+```
+#include <stdio.h>
+#include "stdio.h"
+```
