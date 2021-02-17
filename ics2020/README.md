@@ -1,15 +1,6 @@
 # 0x1 编译链接
 .c-->预编译（-E）-->.i-->编译（-S）-->.s-->汇编（-c）-->.o-->链接-->a.out
 
-```mermaid
-graph LR
-A[方形] -->B(圆角)
-    B --> C{条件a}
-    C -->|a=1| D[结果1]
-    C -->|a=2| E[结果2]
-    F[横向流程图]
-```
-
 [tldr](https://github.com/tldr-pages/tldr) gcc
   - Compile multiple source files into executable:
     gcc source1.c source2.c -o executable
