@@ -66,6 +66,17 @@ git branch -M main
 git remote add origin https://github.com/user/my-project.git
 git push -u origin main
 ```
+## Fetch rmote repo
+```bash
+# 查看远程仓库
+git remote -v
+# 从远程获取最新版本到本地
+git fetch origin main
+# 比较远程分支和本地分支
+ git log -p main origin/main
+# 合并远程分支到本地
+git merge origin/main
+```
 ## Reference
 [GitHub CLI Manual](https://cli.github.com/manual/)
 
